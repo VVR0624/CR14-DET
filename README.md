@@ -8,20 +8,20 @@ The dataset contains a total of **5,074 images** and **10,594 annotated instance
 
 | Class ID | Defect Category | Images | Instances | Description |
 | :---: | :--- | :---: | :---: | :--- |
-| `0` | **Linear** | 250 | 405 | Scratches caused by rollers or structural objects; straight and continuous. |
-| `1` | **Macular** | 382 | 596 | Yellow or white spreading patches; blooming on the board surface. |
-| `2` | **Pit** | 583 | 1,435 | Depressions or gravures of a certain depth on the surface. |
-| `3` | **Scrapes** | 635 | 838 | Wide-area friction marks or abrasions. |
-| `4` | **Scabs** | 654 | 1,586 | Metallic protrusions or crust-like scale patches. |
-| `5` | **Contusion** | 277 | 813 | Bruise-like impact marks from mechanical collisions. |
-| `6` | **Edge Cracks** | 129 | 166 | Fractures or splits occurring at the strip edges. |
-| `7` | **Heat Scratches** | 140 | 783 | Scratches with thermal discoloration or heat traces. |
-| `8` | **Impurities Pressed-in** | 208 | 553 | Non-metallic foreign matter pressed into the metal during rolling. |
-| `9` | **Protective Slag** | 470 | 694 | Residue from casting powder or slag on the surface. |
-| `10` | **Rolled-in Scale** | 616 | 957 | Oxide scale rolled tightly into the steel surface. |
-| `11` | **Dark Spots** | 405 | 853 | Periodic dark or black spots. |
-| `12` | **Black Line** | 177 | 654 | Dark, continuous, or semi-continuous linear marks. |
-| `13` | **Bright Bands** | 148 | 261 | Abnormally bright streaks of varying widths. |
+| `0` | **Linear** | 250 | 405 | Thin vertical low-contrast streaks. |
+| `1` | **Macular** | 382 | 596 | Blurred hazy dark surface patches. |
+| `2` | **Pit** | 583 | 1,435 | Deep localized tiny surface pits. |
+| `3` | **Scrapes** | 635 | 838 | Horizontal friction induced scratches. |
+| `4` | **Scabs** | 654 | 1,586 | Thick crust-like protruding scales. |
+| `5` | **Contusion** | 277 | 813 | Shallow surface indentation marks. |
+| `6` | **Edge Cracks** | 129 | 166 | Irregular tears at strip boundaries. |
+| `7` | **Heat Scratches** | 140 | 783 | Parallel thermal friction lines. |
+| `8` | **Impurities Pressed-in** | 208 | 553 | Embedded small dark foreign particles. |
+| `9` | **Protective Slag** | 470 | 694 | Irregular dark slag residue spots. |
+| `10` | **Rolled-in Scale** | 616 | 957 | Rough oxide scale pressed surface. |
+| `11` | **Dark Spots** | 405 | 853 | Localized dark oxidative stains. |
+| `12` | **Black Line** | 177 | 654 | Longitudinal dark line markings. |
+| `13` | **Bright Bands** | 148 | 261 | High-reflectivity vertical bands. |
 
 ## 📁 Data Format & Directory Structure
 
